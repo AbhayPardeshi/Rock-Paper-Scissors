@@ -10,7 +10,7 @@ body{
 }
 
 .header {
-  
+    font-size: 25px;
     text-align: center;
     color:black;
     background-color:#EFF6FF;
@@ -32,7 +32,7 @@ body{
 #user{
     border:1px solid black;
     text-align: center;
-    position: absolute;
+    position:absolute;
     top:15px;
     left:-17px;
 }
@@ -50,27 +50,30 @@ body{
 .result p{
     color: black;
     font-size: 35px;
-    text-align: center;
+    text-align: center
 }
-.img{
-    text-align: center;
+.choices{
+    text-align:center;
+    margin:50px auto;
+    
     
 }
 
-.icons{
+.choice{
     border:2px solid black;
-    border-radius:70%;
+    border-radius:75%;
     padding:2rem;
     margin: 0px 20px;
+    display: inline-block;
     transition: all 0.3s ease;
 }
 
-.text{
+#action-message{
     text-align: center;
     font-size:2rem
 }
 
-.icons:hover{
+.choice:hover{
     cursor: pointer;
     background-color: cornflowerblue;
     
