@@ -19,9 +19,9 @@ body{
 
 .components{
     margin:20px auto;
-    color:white;
+    color:black;
     text-align: center;
-    border:2px solid black;
+    /* border:2px solid black; */
     width: 175px;
     position: relative;
     padding: 20px 0px;
@@ -35,9 +35,11 @@ body{
     position:absolute;
     top:15px;
     left:-17px;
+    padding: 10px;
+    border-radius: 25%;
 }
 .badge{
-    background-color: #1E3A8A;
+    background-color: white;
 }
 #computer{
     border:1px solid black;
@@ -45,6 +47,12 @@ body{
     position: absolute;
     top:15px;
     right:-22px;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.score_board{
+    color:rgb(13, 14, 13);
 }
 
 .result p{
@@ -77,4 +85,17 @@ body{
     cursor: pointer;
     background-color: cornflowerblue;
     
+}
+
+.green-glow{
+    border:4px solid green;
+    box-shadow: 0 0 10px rgb(72, 211, 72);
+}
+.red-glow{
+    border:4px solid red;
+    box-shadow: 0 0 10px rgb(177, 65, 65);
+}
+.gray-glow{
+    border:4px solid gray;
+    box-shadow: 0 0 10px rgb(54, 43, 43);
 }
